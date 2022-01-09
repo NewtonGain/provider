@@ -14,8 +14,7 @@ class DetailsPage extends StatelessWidget {
           child: Card(child: 
           Column(children: [
             Column(
-              children: 
-                [
+              children: [
                   Hero(
                   tag: 'city',
                   child: Image.network(
@@ -24,12 +23,9 @@ class DetailsPage extends StatelessWidget {
                 ),
               ],
                 ),
-            
-
-        
             Text("The hectic City",style:
              GoogleFonts.poppins(fontSize: 30,fontWeight: FontWeight.bold),),
-            Text("details of the city"),
+            Text("details of the page "),
           ],),),
         ),
       ),
